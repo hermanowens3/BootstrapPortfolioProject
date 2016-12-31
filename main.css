@@ -23,12 +23,44 @@
   height: 240px;
   background-color: #777;
 }
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 240px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #aaa;
+}
+
+.carousel-indicators .active {
+  background-color: #aaa;
+}
+
+#efficient{
+  background: #fff url(http://xgm.xynez.com/global/files/2012/05/Solutions-by-Xynez-Global-Media.jpg) no-repeat left center;
+  background-size: contain;
+}
+
+#efficient .carousel-caption {
+  color: #f00;
+}
+
+#color {
+  background: #000 url(http://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/portrait-of-zebra-in-black-and-white-iv-lukas-holas.jpg) no-repeat left center;
+  background-size: auto;
+}
+
+#error {
+  background: #eee url(http://hopesingapore.org.sg/wp-content/uploads/2015/04/YesNoMaybe.1024.jpg) no-repeat left center;
+  background-size: contain;
+}
+
+#error .carousel-caption {
+  color: #F8BA32;
 }
 
 @media (min-width: 768px) {
